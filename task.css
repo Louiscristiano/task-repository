@@ -38,6 +38,11 @@ body {
   padding: 5px;
 }
 
+div, .select .selector #submit {
+  margin: 20px;
+  align-items: center;
+}
+
 #submit {
   position: absolute;
   float: left;
