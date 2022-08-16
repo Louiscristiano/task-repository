@@ -6,9 +6,11 @@
 }
 
 body {
+  font-family: 'poppins' Helvetica, sans-serif;
   background: #eb6b15;
   position: relative;
   padding: 25%;
+  width: 100%;
 }
 
 .container {
@@ -18,13 +20,14 @@ body {
   height: 300px;
   width: 500px;
   transform: translate(-50%, -50%);
+  top: 50%;
   left: 50%;
   align-items: center;
   padding-top: 50px;
 }
 
 .select {
-  padding-left: 50px;
+  padding-left: 45px;
   color: #fff;
   font-size: large;
 }
@@ -36,7 +39,7 @@ body {
   left: 130px;
   width: 250px;
   font-size: 11px;
-  padding: 5px;
+  padding: 6px;
 }
 
 div, .select .selector #submit {
@@ -50,6 +53,6 @@ div, .select .selector #submit {
   left: 200px;
   width: 250px;
   height: 30px;
-  padding: 5px;
+  padding: 6px;
   cursor: pointer;
 }
